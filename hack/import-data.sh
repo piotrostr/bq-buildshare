@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# create table if not exists
+./hack/connect.sh < ./sql/create-table.sql
+
 # enable local data loading
 ./hack/connect.sh < ./sql/enable-loading-data.sql
 

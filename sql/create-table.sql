@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS melb_data (
+        Suburb VARCHAR(255),
+        Address VARCHAR(255),
+        Rooms DECIMAL,
+        Type VARCHAR(255),
+        Price DECIMAL,
+        Method VARCHAR(255),
+        SellerG VARCHAR(255),
+        Date VARCHAR(255),
+        Distance DECIMAL,
+        Postcode DECIMAL,
+        Bedroom2 DECIMAL,
+        Bathroom DECIMAL,
+        Car DECIMAL,
+        Landsize DECIMAL ,
+        BuildingArea DECIMAL,
+        YearBuilt DECIMAL,
+        CouncilArea VARCHAR(255),
+        Lattitude DECIMAL,
+        Longtitude DECIMAL,
+        Regionname VARCHAR(255),
+        Propertycount DECIMAL 
+);
