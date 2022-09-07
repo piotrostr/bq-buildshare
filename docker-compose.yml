@@ -4,5 +4,11 @@ services:
     image: mysql
     environment:
       MYSQL_DATABASE: db
+      MYSQL_ROOT_PASSWORD: pw
     ports:
       - 3306:3306
+    volumes:
+      - data:/var/lib/mysql
+volumes:
+  data:
+    name: mysql-data-volume
