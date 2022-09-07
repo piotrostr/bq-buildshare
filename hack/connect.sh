@@ -5,4 +5,5 @@ mysql \
   --user=root \
   --password=pw \
   --port=3306 \
+  --protocol=tcp \
   db
