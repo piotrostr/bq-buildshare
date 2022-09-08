@@ -1,5 +1,7 @@
 #!/bin/bash
 
+data_path=./data/melb_data.csv
+
 # create table if not exists
 ./hack/connect.sh < ./sql/create-table.sql
 
@@ -14,4 +16,4 @@ mysqlimport \
   --port 3306 \
   --password \
   --local \
-  db ./data/melb_data.csv
+  db $data_path

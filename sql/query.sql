@@ -8,5 +8,5 @@ INNER JOIN `famous-vista-361810.team_mega_dataset.SalesReceipts` AS SalesReceipt
 GROUP BY
   ProductTable.product
 ORDER BY
-  totalSoldASC
-LIMIT 10
+  totalSold ASC
+LIMIT 10;
